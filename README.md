@@ -1,123 +1,86 @@
-## 🚨 Note: This branch is unstable. For the stable branch's source code, please use the branch [3.x](https://github.com/chatwoot/chatwoot/tree/3.x)
-
-
-<img src="https://user-images.githubusercontent.com/2246121/282256557-1570674b-d142-4198-9740-69404cc6a339.png#gh-light-mode-only" width="100%" alt="Chat dashboard dark mode"/>
-<img src="https://user-images.githubusercontent.com/2246121/282256632-87f6a01b-6467-4e0e-8a93-7bbf66d03a17.png#gh-dark-mode-only" width="100%" alt="Chat dashboard"/>
-
-___
-
-# Chatwoot
-
-Customer engagement suite, an open-source alternative to Intercom, Zendesk, Salesforce Service Cloud etc.
-<p>
-  <a href="https://heroku.com/deploy?template=https://github.com/chatwoot/chatwoot/tree/master" alt="Deploy to Heroku">
-     <img width="150" alt="Deploy" src="https://www.herokucdn.com/deploy/button.svg"/>
+<div class="Box-sc-g0xbh4-0 QkQOb js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="228459049" _msthash="507">🚨 注意：这个分支不稳定。对于稳定分支的源代码，请使用分支 <a href="https://github.com/chatwoot/chatwoot/tree/3.x" _istranslated="1">3.x</a></h2><a id="user-content--note-this-branch-is-unstable-for-the-stable-branchs-source-code-please-use-the-branch-3x" class="anchor" aria-label="永久链接：🚨注意：这个分支不稳定。对于稳定分支的源代码，请使用分支 3.x" href="#-note-this-branch-is-unstable-for-the-stable-branchs-source-code-please-use-the-branch-3x" _mstaria-label="31595798" _msthash="508"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/2246121/282256557-1570674b-d142-4198-9740-69404cc6a339.png#gh-light-mode-only"><img src="https://user-images.githubusercontent.com/2246121/282256557-1570674b-d142-4198-9740-69404cc6a339.png#gh-light-mode-only" width="100%" alt="聊天仪表板深色模式" style="max-width: 100%;" _mstalt="482560" _msthash="509"></a></p>
+<p dir="auto" _msthidden="1"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/2246121/282256632-87f6a01b-6467-4e0e-8a93-7bbf66d03a17.png#gh-dark-mode-only" _msthidden="1"><img src="https://user-images.githubusercontent.com/2246121/282256632-87f6a01b-6467-4e0e-8a93-7bbf66d03a17.png#gh-dark-mode-only" width="100%" alt="Chat dashboard" style="max-width: 100%;" _msthidden="A" _mstalt="226148" _msthash="510"></a></p>
+<hr>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="8738028" _msthash="511">查沃特</h1><a id="user-content-chatwoot" class="anchor" aria-label="永久链接：Chatwoot" href="#chatwoot" _mstaria-label="373581" _msthash="512"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="179307349" _msthash="513">客户参与套件，Intercom、Zendesk、Salesforce Service Cloud 等的开源替代品。</p>
+<p dir="auto">
+  <a href="https://heroku.com/deploy?template=https://github.com/chatwoot/chatwoot/tree/master" alt="Deploy to Heroku" rel="nofollow">
+     <img width="150" alt="部署" src="https://camo.githubusercontent.com/dc2056acd0e6ff421bfc2b129417f4f832d626c61d1c083221211d8503a429f7/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" style="max-width: 100%;" _mstalt="78585" _msthash="514">
   </a>
-  <a href="https://marketplace.digitalocean.com/apps/chatwoot?refcode=f2238426a2a8" alt="Deploy to DigitalOcean">
-     <img width="200" alt="Deploy to DO" src="https://www.deploytodo.com/do-btn-blue.svg"/>
+  <a href="https://marketplace.digitalocean.com/apps/chatwoot?refcode=f2238426a2a8" alt="Deploy to DigitalOcean" rel="nofollow">
+     <img width="200" alt="部署到 DO" src="https://camo.githubusercontent.com/e093a0ed531124a715aad44362848ca2cff28c3182c2c0ca4a70b2564b681f59/68747470733a2f2f7777772e6465706c6f79746f646f2e636f6d2f646f2d62746e2d626c75652e737667" data-canonical-src="https://www.deploytodo.com/do-btn-blue.svg" style="max-width: 100%;" _mstalt="148083" _msthash="515">
   </a>
 </p>
-
-<p>
-  <a href="https://codeclimate.com/github/chatwoot/chatwoot/maintainability"><img src="https://api.codeclimate.com/v1/badges/e6e3f66332c91e5a4c0c/maintainability" alt="Maintainability"></a>
-  <img src="https://img.shields.io/circleci/build/github/chatwoot/chatwoot" alt="CircleCI Badge">
-    <a href="https://hub.docker.com/r/chatwoot/chatwoot/"><img src="https://img.shields.io/docker/pulls/chatwoot/chatwoot" alt="Docker Pull Badge"></a>
-  <a href="https://hub.docker.com/r/chatwoot/chatwoot/"><img src="https://img.shields.io/docker/cloud/build/chatwoot/chatwoot" alt="Docker Build Badge"></a>
-  <img src="https://img.shields.io/github/commit-activity/m/chatwoot/chatwoot" alt="Commits-per-month">
-  <a title="Crowdin" target="_self" href="https://chatwoot.crowdin.com/chatwoot"><img src="https://badges.crowdin.net/e/37ced7eba411064bd792feb3b7a28b16/localized.svg"></a>
-  <a href="https://discord.gg/cJXdrwS"><img src="https://img.shields.io/discord/647412545203994635" alt="Discord"></a>
-  <a href="https://status.chatwoot.com"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchatwoot%2Fstatus%2Fmaster%2Fapi%2Fchatwoot%2Fuptime.json" alt="uptime"></a>
-  <a href="https://status.chatwoot.com"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchatwoot%2Fstatus%2Fmaster%2Fapi%2Fchatwoot%2Fresponse-time.json" alt="response time"></a>
-  <a href="https://artifacthub.io/packages/helm/chatwoot/chatwoot"><img src="https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/artifact-hub" alt="Artifact HUB"></a>
+<p dir="auto">
+  <a href="https://codeclimate.com/github/chatwoot/chatwoot/maintainability" rel="nofollow"><img src="https://camo.githubusercontent.com/ee45a6bef647043b6075f25d82ac0da741757ac61c6ed422e11ccc4a60f3641a/68747470733a2f2f6170692e636f6465636c696d6174652e636f6d2f76312f6261646765732f65366533663636333332633931653561346330632f6d61696e7461696e6162696c697479" alt="可维护性" data-canonical-src="https://api.codeclimate.com/v1/badges/e6e3f66332c91e5a4c0c/maintainability" style="max-width: 100%;" _mstalt="290069" _msthash="516"></a>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/ac4d3bb0654924ad500109153e1b371866cc571273694d09fe028d8e0dd45765/68747470733a2f2f696d672e736869656c64732e696f2f636972636c6563692f6275696c642f6769746875622f63686174776f6f742f63686174776f6f74"><img src="https://camo.githubusercontent.com/ac4d3bb0654924ad500109153e1b371866cc571273694d09fe028d8e0dd45765/68747470733a2f2f696d672e736869656c64732e696f2f636972636c6563692f6275696c642f6769746875622f63686174776f6f742f63686174776f6f74" alt="CircleCI 徽章" data-canonical-src="https://img.shields.io/circleci/build/github/chatwoot/chatwoot" style="max-width: 100%;" _mstalt="203229" _msthash="517"></a>
+    <a href="https://hub.docker.com/r/chatwoot/chatwoot/" rel="nofollow"><img src="https://camo.githubusercontent.com/cb74684cb8f5707095b42e05272aa902bdb6a6d58ab64b20c2be68e2563a42ed/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f63686174776f6f742f63686174776f6f74" alt="Docker Pull 徽章" data-canonical-src="https://img.shields.io/docker/pulls/chatwoot/chatwoot" style="max-width: 100%;" _mstalt="270127" _msthash="518"></a>
+  <a href="https://hub.docker.com/r/chatwoot/chatwoot/" rel="nofollow"><img src="https://camo.githubusercontent.com/b4c875aec04938e6d43e53656f5535a047ba21443f6c2ed43e762970593e6575/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f636c6f75642f6275696c642f63686174776f6f742f63686174776f6f74" alt="Docker 构建徽章" data-canonical-src="https://img.shields.io/docker/cloud/build/chatwoot/chatwoot" style="max-width: 100%;" _mstalt="295347" _msthash="519"></a>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/ebf85ee45e1bc5ebf7dba98df61a0c9a0501d9bc491a7fd80dfb22796669bf4f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d69742d61637469766974792f6d2f63686174776f6f742f63686174776f6f74"><img src="https://camo.githubusercontent.com/ebf85ee45e1bc5ebf7dba98df61a0c9a0501d9bc491a7fd80dfb22796669bf4f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d69742d61637469766974792f6d2f63686174776f6f742f63686174776f6f74" alt="每月提交数" data-canonical-src="https://img.shields.io/github/commit-activity/m/chatwoot/chatwoot" style="max-width: 100%;" _mstalt="333957" _msthash="520"></a>
+  <a title="Crowdin" href="https://chatwoot.crowdin.com/chatwoot" rel="nofollow"><img src="https://camo.githubusercontent.com/8289a787ac2ec3552324f770a8d7a3cb7c0c17c0323c37baa73da5c0ba58ae05/68747470733a2f2f6261646765732e63726f7764696e2e6e65742f652f33376365643765626134313130363462643739326665623362376132386231362f6c6f63616c697a65642e737667" data-canonical-src="https://badges.crowdin.net/e/37ced7eba411064bd792feb3b7a28b16/localized.svg" style="max-width: 100%;"></a>
+  <a href="https://discord.gg/cJXdrwS" rel="nofollow"><img src="https://camo.githubusercontent.com/c62f54a98388159d5e970c2c60a89ddf69fca24ef3d38a22fc7b36e8911520bf/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f363437343132353435323033393934363335" alt="不和" data-canonical-src="https://img.shields.io/discord/647412545203994635" style="max-width: 100%;" _mstalt="93990" _msthash="521"></a>
+  <a href="https://status.chatwoot.com" rel="nofollow"><img src="https://camo.githubusercontent.com/bec70712d0b3f513449531d8916e32ebe4a827eead7c7728ae6276a3ef8504b1/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470732533412532462532467261772e67697468756275736572636f6e74656e742e636f6d25324663686174776f6f742532467374617475732532466d617374657225324661706925324663686174776f6f74253246757074696d652e6a736f6e" alt="正常运行时间" data-canonical-src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchatwoot%2Fstatus%2Fmaster%2Fapi%2Fchatwoot%2Fuptime.json" style="max-width: 100%;" _mstalt="80860" _msthash="522"></a>
+  <a href="https://status.chatwoot.com" rel="nofollow"><img src="https://camo.githubusercontent.com/4519da941962ad5281cd1f2e3364a6e4ed33f82dce369085e98b94e5e9802897/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470732533412532462532467261772e67697468756275736572636f6e74656e742e636f6d25324663686174776f6f742532467374617475732532466d617374657225324661706925324663686174776f6f74253246726573706f6e73652d74696d652e6a736f6e" alt="响应时间" data-canonical-src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchatwoot%2Fstatus%2Fmaster%2Fapi%2Fchatwoot%2Fresponse-time.json" style="max-width: 100%;" _mstalt="211926" _msthash="523"></a>
+  <a href="https://artifacthub.io/packages/helm/chatwoot/chatwoot" rel="nofollow"><img src="https://camo.githubusercontent.com/f6530c2c4c3786238dfe2639b9afa27dc6e54fe9f23b388195439295f7b9f4bd/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f61727469666163746875622e696f2f62616467652f7265706f7369746f72792f61727469666163742d687562" alt="Artifact HUB" data-canonical-src="https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/artifact-hub" style="max-width: 100%;" _mstalt="158860" _msthash="524"></a>
 </p>
-
-<img src="https://user-images.githubusercontent.com/2246121/282255783-ee8a50c9-f42d-4752-8201-2d59965a663d.png#gh-light-mode-only" width="100%" alt="Chat dashboard dark mode"/>
-<img src="https://user-images.githubusercontent.com/2246121/282255784-3d1994ec-d895-4ff5-ac68-d819987e1869.png#gh-dark-mode-only" width="100%" alt="Chat dashboard"/>
-
-Chatwoot is an open-source, self-hosted customer engagement suite. Chatwoot lets you view and manage your customer data, communicate with them irrespective of which medium they use, and re-engage them based on their profile.
-
-## Features
-
-Chatwoot supports the following conversation channels:
-
- - **Website**: Talk to your customers using our live chat widget and make use of our SDK to identify a user and provide contextual support.
- - **Facebook**: Connect your Facebook pages and start replying to the direct messages to your page.
- - **Instagram**: Connect your Instagram profile and start replying to the direct messages.
- - **Twitter**: Connect your Twitter profiles and reply to direct messages or the tweets where you are mentioned.
- - **Telegram**: Connect your Telegram bot and reply to your customers right from a single dashboard.
- - **WhatsApp**: Connect your WhatsApp business account and manage the conversation in Chatwoot.
- - **Line**: Connect your Line account and manage the conversations in Chatwoot.
- - **SMS**: Connect your Twilio SMS account and reply to the SMS queries in Chatwoot.
- - **API Channel**: Build custom communication channels using our API channel.
- - **Email**: Forward all your email queries to Chatwoot and view it in our integrated dashboard.
-
-And more.
-
-Other features include:
-
-- **CRM**: Save all your customer information right inside Chatwoot, use contact notes to log emails, phone calls, or meeting notes.
-- **Custom Attributes**: Define custom attribute attributes to store information about a contact or a conversation and extend the product to match your workflow.
-- **Shared multi-brand inboxes**: Manage multiple brands or pages using a shared inbox.
-- **Private notes**: Use @mentions and private notes to communicate internally about a conversation.
-- **Canned responses (Saved replies)**: Improve the response rate by adding saved replies for frequently asked questions.
-- **Conversation Labels**: Use conversation labels to create custom workflows.
-- **Auto assignment**: Chatwoot intelligently assigns a ticket to the agents who have access to the inbox depending on their availability and load.
-- **Conversation continuity**: If the user has provided an email address through the chat widget, Chatwoot will send an email to the customer under the agent name so that the user can continue the conversation over the email.
-- **Multi-lingual support**: Chatwoot supports 10+ languages.
-- **Powerful API & Webhooks**: Extend the capability of the software using Chatwoot’s webhooks and APIs.
-- **Integrations**: Chatwoot natively integrates with Slack right now. Manage your conversations in Slack without logging into the dashboard.
-
-## Documentation
-
-Detailed documentation is available at [chatwoot.com/help-center](https://www.chatwoot.com/help-center).
-
-## Translation process
-
-The translation process for Chatwoot web and mobile app is managed at [https://translate.chatwoot.com](https://translate.chatwoot.com) using Crowdin. Please read the [translation guide](https://www.chatwoot.com/docs/contributing/translating-chatwoot-to-your-language) for contributing to Chatwoot.
-
-## Branching model
-
-We use the [git-flow](https://nvie.com/posts/a-successful-git-branching-model/) branching model. The base branch is `develop`.
-If you are looking for a stable version, please use the `master` or tags labelled as `v1.x.x`.
-
-## Deployment
-
-### Heroku one-click deploy
-
-Deploying Chatwoot to Heroku is a breeze. It's as simple as clicking this button:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/chatwoot/chatwoot/tree/master)
-
-Follow this [link](https://www.chatwoot.com/docs/environment-variables) to understand setting the correct environment variables for the app to work with all the features. There might be breakages if you do not set the relevant environment variables.
-
-
-### DigitalOcean 1-Click Kubernetes deployment
-
-Chatwoot now supports 1-Click deployment to DigitalOcean as a kubernetes app.
-
-<a href="https://marketplace.digitalocean.com/apps/chatwoot?refcode=f2238426a2a8" alt="Deploy to DigitalOcean">
-  <img width="200" alt="Deploy to DO" src="https://www.deploytodo.com/do-btn-blue.svg"/>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/2246121/282255783-ee8a50c9-f42d-4752-8201-2d59965a663d.png#gh-light-mode-only"><img src="https://user-images.githubusercontent.com/2246121/282255783-ee8a50c9-f42d-4752-8201-2d59965a663d.png#gh-light-mode-only" width="100%" alt="聊天仪表板深色模式" style="max-width: 100%;" _mstalt="482560" _msthash="525"></a></p>
+<p dir="auto" _msthidden="1"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/2246121/282255784-3d1994ec-d895-4ff5-ac68-d819987e1869.png#gh-dark-mode-only" _msthidden="1"><img src="https://user-images.githubusercontent.com/2246121/282255784-3d1994ec-d895-4ff5-ac68-d819987e1869.png#gh-dark-mode-only" width="100%" alt="Chat dashboard" style="max-width: 100%;" _msthidden="A" _mstalt="226148" _msthash="526"></a></p>
+<p dir="auto" _msttexthash="1240575453" _msthash="527">Chatwoot 是一个开源的、自托管的客户参与套件。Chatwoot 允许您查看和管理您的客户数据，无论他们使用哪种媒体都与他们沟通，并根据他们的个人资料重新吸引他们。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5209451" _msthash="528">特征</h2><a id="user-content-features" class="anchor" aria-label="永久链接：功能" href="#features" _mstaria-label="370552" _msthash="529"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="72493681" _msthash="530">Chatwoot 支持以下对话渠道：</p>
+<ul dir="auto">
+<li _msttexthash="422219031" _msthash="531"><strong _istranslated="1">网站</strong>：使用我们的实时聊天小部件与您的客户交谈，并使用我们的 SDK 来识别用户并提供上下文支持。</li>
+<li _msttexthash="258064313" _msthash="532"><strong _istranslated="1">Facebook</strong>：连接您的 Facebook 页面并开始回复对您页面的直接消息。</li>
+<li _msttexthash="202728383" _msthash="533"><strong _istranslated="1">Instagram</strong>：连接您的 Instagram 个人资料并开始回复直接消息。</li>
+<li _msttexthash="250692988" _msthash="534"><strong _istranslated="1">Twitter</strong>：连接您的 Twitter 个人资料并回复直接消息或提及您的推文。</li>
+<li _msttexthash="256904973" _msthash="535"><strong _istranslated="1">Telegram</strong>：连接您的 Telegram 机器人并直接从单个仪表板回复您的客户。</li>
+<li _msttexthash="182799006" _msthash="536"><strong _istranslated="1">WhatsApp</strong>：连接您的 WhatsApp 业务帐户并在 Chatwoot 中管理对话。</li>
+<li _msttexthash="124410871" _msthash="537"><strong _istranslated="1">Line</strong>：连接您的 Line 帐户并管理 Chatwoot 中的对话。</li>
+<li _msttexthash="160212624" _msthash="538"><strong _istranslated="1">短信</strong>：连接您的 Twilio SMS 账户并在 Chatwoot 中回复短信查询。</li>
+<li _msttexthash="162487728" _msthash="539"><strong _istranslated="1">API 通道</strong>：使用我们的 API 通道构建自定义通信通道。</li>
+<li _msttexthash="301378506" _msthash="540"><strong _istranslated="1">电子邮件</strong>： 将您的所有电子邮件查询转发到 Chatwoot 并在我们的集成仪表板中查看。</li>
+</ul>
+<p dir="auto" _msttexthash="11875149" _msthash="541">以及更多。</p>
+<p dir="auto" _msttexthash="28790476" _msthash="542">其他功能包括：</p>
+<ul dir="auto">
+<li _msttexthash="522772458" _msthash="543"><strong _istranslated="1">客户关系管理</strong>：将您的所有客户信息保存在 Chatwoot 中，使用联系人记录来记录电子邮件、电话或会议记录。</li>
+<li _msttexthash="444665013" _msthash="544"><strong _istranslated="1">自定义属性</strong>： 定义自定义属性属性以存储有关联系人或对话的信息，并扩展产品以匹配您的工作流程。</li>
+<li _msttexthash="190319415" _msthash="545"><strong _istranslated="1">共享的多品牌收件箱</strong>： 使用共享收件箱管理多个品牌或页面。</li>
+<li _msttexthash="203243079" _msthash="546"><strong _istranslated="1">私人笔记</strong>：使用@mentions和私人笔记在内部就对话进行交流。</li>
+<li _msttexthash="313711164" _msthash="547"><strong _istranslated="1">预设回复 （已保存的回复）：</strong>通过为常见问题添加已保存的回复来提高回复率。</li>
+<li _msttexthash="123661395" _msthash="548"><strong _istranslated="1">对话标签</strong>：使用对话标签创建自定义工作流程。</li>
+<li _msttexthash="434673655" _msthash="549"><strong _istranslated="1">自动分配</strong>： Chatwoot 根据他们的可用性和负载，智能地将工单分配给有权访问收件箱的代理。</li>
+<li _msttexthash="971476545" _msthash="550"><strong _istranslated="1">对话连续性</strong>：如果用户通过聊天小部件提供了电子邮件地址，Chatwoot 将在代理名称下向客户发送一封电子邮件，以便用户可以通过电子邮件继续对话。</li>
+<li _msttexthash="82265937" _msthash="551"><strong _istranslated="1">多语言支持</strong>： Chatwoot 支持 10+ 种语言。</li>
+<li _msttexthash="201668181" _msthash="552"><strong _istranslated="1">强大的API和Webhooks</strong>：使用Chatwoot的webhooks和API扩展软件的功能。</li>
+<li _msttexthash="333365149" _msthash="553"><strong _istranslated="1">集成</strong>： Chatwoot 现在与 Slack 原生集成。无需登录仪表板即可在 Slack 中管理您的对话。</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5144373" _msthash="554">文档</h2><a id="user-content-documentation" class="anchor" aria-label="永久链接： 文档" href="#documentation" _mstaria-label="559767" _msthash="555"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="64002445" _msthash="556">详细文档可在 <a href="https://www.chatwoot.com/help-center" rel="nofollow" _istranslated="1">chatwoot.com/help-center</a> 上获取。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="14037868" _msthash="557">翻译流程</h2><a id="user-content-translation-process" class="anchor" aria-label="永久链接： 翻译过程" href="#translation-process" _mstaria-label="791349" _msthash="558"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="743958254" _msthash="559">Chatwoot 网络和移动应用程序的翻译过程使用 Crowdin 在 <a href="https://translate.chatwoot.com" rel="nofollow" _istranslated="1">https://translate.chatwoot.com</a> 进行管理。请阅读<a href="https://www.chatwoot.com/docs/contributing/translating-chatwoot-to-your-language" rel="nofollow" _istranslated="1">翻译指南</a>，为 Chatwoot 做出贡献。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="10696933" _msthash="560">分支模型</h2><a id="user-content-branching-model" class="anchor" aria-label="永久链接：分支模型" href="#branching-model" _mstaria-label="588887" _msthash="561"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font _mstmutation="1" _msttexthash="424469539" _msthash="562">我们使用 <a href="https://nvie.com/posts/a-successful-git-branching-model/" rel="nofollow" _mstmutation="1" _istranslated="1">git-flow</a> 分支模型。基本分支是 .
+如果您正在寻找稳定版本，请使用标记为 的 或 标签。</font><code>develop</code><code>master</code><code>v1.x.x</code></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="6768840" _msthash="563">部署</h2><a id="user-content-deployment" class="anchor" aria-label="永久链接：部署" href="#deployment" _mstaria-label="445081" _msthash="564"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="24423477" _msthash="565">Heroku 一键部署</h3><a id="user-content-heroku-one-click-deploy" class="anchor" aria-label="永久链接：Heroku 一键部署" href="#heroku-one-click-deploy" _mstaria-label="910585" _msthash="566"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="247372528" _msthash="567">将 Chatwoot 部署到 Heroku 轻而易举。就像点击这个按钮一样简单：</p>
+<p dir="auto"><a href="https://heroku.com/deploy?template=https://github.com/chatwoot/chatwoot/tree/master" rel="nofollow"><img src="https://camo.githubusercontent.com/dc2056acd0e6ff421bfc2b129417f4f832d626c61d1c083221211d8503a429f7/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" alt="部署" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" style="max-width: 100%;" _mstalt="78585" _msthash="568"></a></p>
+<p dir="auto" _msttexthash="608821265" _msthash="569">点击此<a href="https://www.chatwoot.com/docs/environment-variables" rel="nofollow" _istranslated="1">链接</a>了解如何为应用程序设置正确的环境变量以使用所有功能。如果不设置相关的环境变量，则可能会出现中断。</p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="51491297" _msthash="570">DigitalOcean 一键式 Kubernetes 部署</h3><a id="user-content-digitalocean-1-click-kubernetes-deployment" class="anchor" aria-label="永久链接：DigitalOcean 一键式 Kubernetes 部署" href="#digitalocean-1-click-kubernetes-deployment" _mstaria-label="2011178" _msthash="571"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="218898589" _msthash="572">Chatwoot 现在支持将 DigitalOcean 作为 kubernetes 应用程序一键部署到 DigitalOcean。</p>
+<a href="https://marketplace.digitalocean.com/apps/chatwoot?refcode=f2238426a2a8" alt="Deploy to DigitalOcean" rel="nofollow">
+  <img width="200" alt="部署到 DO" src="https://camo.githubusercontent.com/e093a0ed531124a715aad44362848ca2cff28c3182c2c0ca4a70b2564b681f59/68747470733a2f2f7777772e6465706c6f79746f646f2e636f6d2f646f2d62746e2d626c75652e737667" data-canonical-src="https://www.deploytodo.com/do-btn-blue.svg" style="max-width: 100%;" _mstalt="148083" _msthash="573">
 </a>
-
-### Other deployment options
-
-For other supported options, checkout our [deployment page](https://chatwoot.com/deploy).
-
-## Security
-
-Looking to report a vulnerability? Please refer our [SECURITY.md](./SECURITY.md) file.
-
-
-## Community? Questions? Support ?
-
-If you need help or just want to hang out, come, say hi on our [Discord](https://discord.gg/cJXdrwS) server.
-
-
-## Contributors ✨
-
-Thanks goes to all these [wonderful people](https://www.chatwoot.com/docs/contributors):
-
-<a href="https://github.com/chatwoot/chatwoot/graphs/contributors"><img src="https://opencollective.com/chatwoot/contributors.svg?width=890&button=false" /></a>
-
-
-*Chatwoot* &copy; 2017-2024, Chatwoot Inc - Released under the MIT License.
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="23940241" _msthash="574">其他部署选项</h3><a id="user-content-other-deployment-options" class="anchor" aria-label="永久链接：其他部署选项" href="#other-deployment-options" _mstaria-label="1005550" _msthash="575"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="144078844" _msthash="576">有关其他支持的选项，请查看我们的<a href="https://chatwoot.com/deploy" rel="nofollow" _istranslated="1">部署页面</a>。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="4299763" _msthash="577">安全</h2><a id="user-content-security" class="anchor" aria-label="永久链接： 安全性" href="#security" _mstaria-label="377143" _msthash="578"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="92047241" _msthash="579">想要报告漏洞？请参阅我们的 <a href="/chatwoot/chatwoot/blob/develop/SECURITY.md" _istranslated="1">SECURITY.md</a> 文件。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="55172039" _msthash="580">社区？问题？支持？</h2><a id="user-content-community-questions-support-" class="anchor" aria-label="永久链接：社区？问题？支持？" href="#community-questions-support-" _mstaria-label="1291810" _msthash="581"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="213884255" _msthash="582">如果您需要帮助或只是想闲逛，请来我们的 <a href="https://discord.gg/cJXdrwS" rel="nofollow" _istranslated="1">Discord</a> 服务器上打个招呼。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="7527091" _msthash="583">贡献 ✨</h2><a id="user-content-contributors-" class="anchor" aria-label="永久链接： 贡献者 ✨" href="#contributors-" _mstaria-label="4307914" _msthash="584"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="60912449" _msthash="585">感谢所有这些<a href="https://www.chatwoot.com/docs/contributors" rel="nofollow" _istranslated="1">了不起的人</a>：</p>
+<p dir="auto"><a href="https://github.com/chatwoot/chatwoot/graphs/contributors"><img src="https://camo.githubusercontent.com/e31ffd35a612b57192f0ea50bc86217e7cdd53f34e7b462d4bb94bb12e1f1cfb/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f63686174776f6f742f636f6e7472696275746f72732e7376673f77696474683d38393026627574746f6e3d66616c7365" data-canonical-src="https://opencollective.com/chatwoot/contributors.svg?width=890&amp;button=false" style="max-width: 100%;"></a></p>
+<p dir="auto" _msttexthash="136592287" _msthash="586"><em _istranslated="1">Chatwoot</em> © 2017-2024，Chatwoot Inc - 根据 MIT 许可证发布。</p>
+</article></div>
